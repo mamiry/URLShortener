@@ -1,0 +1,47 @@
+﻿ 
+@{
+    ViewData["Title"] = "اینجا می تونی لینک تو کوتاه کنی";
+}
+
+<div class="margin-top-60 text-center"> 
+    
+    <div class="row text-center "> <h2 class="col-12">اینجا می تونی لینک تو کوتاه کنی</h2></div>
+    
+    <form asp-action="Index">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="margin-top-60  ">
+            <div class="row ">
+                <div class="col-3 text-left">
+                    لینک سایت
+                </div>
+                <div class="col-9 ">
+                    <input name="url" type="text" class="form-control direction-left" placeholder="http://yourweb.ir/" /> 
+                </div>
+            </div>
+
+            <div class="row margin-top-10">
+                @if (ViewBag.UrlShort != null)
+                {
+                    <div class="col-3 text-left">
+                        لینک جدید
+                    </div>
+                    <div class="col-9   text-left">
+                        @ViewBag.UrlShort
+                    </div>
+                     
+                }
+            </div>
+        </div>
+        <div class="margin-top-10 row ">
+            <div class="col-3 ">  </div>
+            <div class="col-9">
+                <div class="form-group">
+                    <input type="submit" class="btn btn-primary btn-block " value="لینک تو کوتاه کن" />
+                </div>
+            </div>
+           
+        </div>
+
+    </form> 
+</div>

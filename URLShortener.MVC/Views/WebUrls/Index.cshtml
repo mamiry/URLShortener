@@ -1,0 +1,76 @@
+﻿@model IEnumerable<URLShortener.Domain.WebUrls.WebUrl>
+@using URLShortener.Core.Converter;
+@using URLShortener.Core.Utilities;
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>لیست لینک های شما</h1>
+<hr />
+<div>
+    <a class="btn btn-success" asp-action="Create">افزودن لینک جدید</a>
+</div>
+<br />
+<div>
+    <table class="table text-center border border-primary scroll-auto">
+        <thead>
+            <tr>
+                <th>
+                    #
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CreateTime)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ClickCount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Url)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UrlShort)
+                </th>
+                <th>
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count(); i++)
+            {
+                <tr>
+                    <td>
+                        @(i + 1)
+                    </td>
+                    <td>
+                        @Model.ToList()[i].CreateTime.ToShamsi()
+                    </td>
+                    <td class="text-center">
+                        @Html.DisplayFor(modelItem => Model.ToList()[i].ClickCount)
+                    </td>
+                    <td class="text-left direction-left">
+                        <a href="@Model.ToList()[i].Url" target="_blank">  @Html.DisplayFor(modelItem => Model.ToList()[i].Url)</a>
+                    </td>
+                    <td class="text-left direction-left ">
+                        <a id="url-@i" href="@StaticValues.SiteURL@Model.ToList()[i].UrlShort" target="_blank">  @StaticValues.SiteURL@Html.DisplayFor(modelItem => Model.ToList()[i].UrlShort)</a>
+
+                    </td>
+                    <td>
+                        <span class="cursor-hand" onclick="copyToClipboard('#url-@i')">کپی</span>
+
+                    </td>
+                    <td class="fix-width200">
+                        <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model.ToList()[i].Id">ویرایش</a>
+                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@Model.ToList()[i].Id">حذف</a>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<br />
+<br />
+
+

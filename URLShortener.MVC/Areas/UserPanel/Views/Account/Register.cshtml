@@ -1,0 +1,91 @@
+﻿@model URLShortener.Domain.ViewModels.User.RegisterViewModel
+
+@{
+    ViewData["Title"] = "ثبت نام در سایت";
+}
+
+<div class="row  margin-top-60">
+    <div class="col-3"></div>
+    <div class="col-6">
+        <form asp-action="Register">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @if (ViewBag.ErrorMessage != null)
+            {
+                <div class="alert alert-danger text-center">@ViewBag.ErrorMessage</div>
+            }
+             
+            <div class="row ">
+                <div class="col-3">
+                    <div class="form-group">
+                        <label asp-for="UserName" class="control-label"></label>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="form-group ">
+                        <input asp-for="UserName" class="form-control text-center" />
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-3">
+                    <div class="form-group">
+                        <label asp-for="Email" class="control-label"></label>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="form-group ">
+                        <input asp-for="Email" class="form-control text-center" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="form-group">
+                        <label asp-for="Password" class="control-label"></label>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="form-group">
+                        <input asp-for="Password" class="form-control text-center" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <div class="form-group">
+                        <label asp-for="RePassword" class="control-label"></label>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="form-group">
+                        <input asp-for="RePassword" class="form-control text-center" />
+                        <span asp-validation-for="RePassword" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="ثبت و ارسال" class="btn btn-primary btn-block" />
+            </div>
+        </form>
+    </div>
+
+    <div class="col-3"></div>
+</div>
+<br />
+<div>
+    <p>  قبلا در سایت ثبت‌ نام کرده‌اید؟  <a asp-controller="Account" asp-action="Login">وارد شویــد</a></p>
+
+</div>
+<div>
+    <a href="/Home/Index">صفحه اصلی</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

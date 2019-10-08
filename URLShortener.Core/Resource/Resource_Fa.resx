@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CanNotDelete" xml:space="preserve">
+    <value>مورد انتخاب شده امکان حذف ندارد</value>
+  </data>
+  <data name="CanNotInsertSubInfo" xml:space="preserve">
+    <value>امکان ثبت زیرشاخه نمی باشد</value>
+  </data>
+  <data name="CompletIedtems" xml:space="preserve">
+    <value>گزینه ها را تکمیل کنید</value>
+  </data>
+  <data name="CustomerNotFound" xml:space="preserve">
+    <value>مشتری یافت نشد</value>
+  </data>
+  <data name="DoNotAccess" xml:space="preserve">
+    <value>اجازه دسترسی ندارید</value>
+  </data>
+  <data name="DoNotAccessAdd" xml:space="preserve">
+    <value>شما اجازه ثبت اطلاعات جدید را ندارید</value>
+  </data>
+  <data name="DoNotAccessDelete" xml:space="preserve">
+    <value>شما اجازه  حذف را ندارید</value>
+  </data>
+  <data name="DoNotAccessEdit" xml:space="preserve">
+    <value>شما اجازه ویرایش اطلاعات را ندارید</value>
+  </data>
+  <data name="DoNotActiveItem" xml:space="preserve">
+    <value>گزینه فعال نمی باشد</value>
+  </data>
+  <data name="DoNotEqualPassword" xml:space="preserve">
+    <value>رمز عبور و تکرار برابر نمی باشد</value>
+  </data>
+  <data name="DoNotFindInfo" xml:space="preserve">
+    <value>اطلاعات یافت نشد</value>
+  </data>
+  <data name="EmailIsAllready" xml:space="preserve">
+    <value>ایمیل وارد شده قبلا ثبت شده است</value>
+  </data>
+  <data name="ErrorTryAgain" xml:space="preserve">
+    <value>خطایی رخ داده است دوباره سعی کنید</value>
+  </data>
+  <data name="FactorDetailNotFound" xml:space="preserve">
+    <value>جزئیات فاکتور یافت نشد</value>
+  </data>
+  <data name="FactorNotFound" xml:space="preserve">
+    <value>فاکتور یافت نشد</value>
+  </data>
+  <data name="GoodNotFound" xml:space="preserve">
+    <value>کالا یافت نشد</value>
+  </data>
+  <data name="GoodNotIsCustomer" xml:space="preserve">
+    <value>این کالا برای مشتری مجاز نمی باشد</value>
+  </data>
+  <data name="InfoNotIsValid" xml:space="preserve">
+    <value>اطلاعات صحیح نمی باشد</value>
+  </data>
+  <data name="InfoSuccessDelete" xml:space="preserve">
+    <value>اطلاعات با موفقیت حذف شد</value>
+  </data>
+  <data name="InfoSuccessEdit" xml:space="preserve">
+    <value>اطلاعات با موفقیت ویرایش شد</value>
+  </data>
+  <data name="InfoSuccessInsert" xml:space="preserve">
+    <value>اطلاعات با موفقیت ثبت شد</value>
+  </data>
+  <data name="InfoSuccessUpdate" xml:space="preserve">
+    <value>اطلاعات با موفقیت بروزرسانی گردید</value>
+  </data>
+  <data name="MessageAnswerNotFound" xml:space="preserve">
+    <value>پاسخ مورد نظر یافت نشد</value>
+  </data>
+  <data name="MessageYourAccountHasBeenBlocked" xml:space="preserve">
+    <value>حساب شما مسدود است</value>
+  </data>
+  <data name="ParameterIsEmputy" xml:space="preserve">
+    <value>پارامتر ورودی بدون مقدار است</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>پرسش</value>
+  </data>
+  <data name="QuestionCloseForm" xml:space="preserve">
+    <value>آیا از بستن فرم جاری مطمئن هستید؟</value>
+  </data>
+  <data name="QuestionDeleteItem" xml:space="preserve">
+    <value>آیا از حذف مورد انتخاب شده مطمئن هستید؟</value>
+  </data>
+  <data name="QuestionUpdateInfo" xml:space="preserve">
+    <value>آیا از بروزرسانی اطلاعات مطمئن هستید ؟</value>
+  </data>
+  <data name="ReportNotEnable" xml:space="preserve">
+    <value>گزارش غیر فعال است</value>
+  </data>
+  <data name="ReportNotFound" xml:space="preserve">
+    <value>گزارش یافت نشد</value>
+  </data>
+  <data name="RequestIsAnswer" xml:space="preserve">
+    <value>درخواست قبلا پاسخ داده شده است</value>
+  </data>
+  <data name="RequestIsDead" xml:space="preserve">
+    <value>درخواست نامعتبر است</value>
+  </data>
+  <data name="RequestNotAnswer" xml:space="preserve">
+    <value>درخواست پاسخ داده نشده است</value>
+  </data>
+  <data name="RequestNotFound" xml:space="preserve">
+    <value>درخواست یافت نشد</value>
+  </data>
+  <data name="ResualtOK" xml:space="preserve">
+    <value>تایید</value>
+  </data>
+  <data name="ResultIsAdd" xml:space="preserve">
+    <value>اطلاعات با موفقیت ثبت گردید</value>
+  </data>
+  <data name="ResultIsConfirm" xml:space="preserve">
+    <value>اطلاعات با موفقیت تایید گردید</value>
+  </data>
+  <data name="ResultIsDelete" xml:space="preserve">
+    <value>اطلاعات با موفقیت حذف گردید</value>
+  </data>
+  <data name="ResultIsUpdate" xml:space="preserve">
+    <value>اطلاعات با موفقیت بروزرسانی گردید</value>
+  </data>
+  <data name="ResultNotAdd" xml:space="preserve">
+    <value>هیچ اطلاعاتی ثبت نگردید</value>
+  </data>
+  <data name="ResultNotConfirm" xml:space="preserve">
+    <value>هیچ اطلاعاتی تایید نگردید</value>
+  </data>
+  <data name="ResultNotDelete" xml:space="preserve">
+    <value>هیچ اطلاعاتی حذف نگردید</value>
+  </data>
+  <data name="ResultNotUpdate" xml:space="preserve">
+    <value>هیچ اطلاعاتی بروزرسانی نگردید</value>
+  </data>
+  <data name="SelectByClickEnterKey" xml:space="preserve">
+    <value>با کلید Enter انتخاب نمایید</value>
+  </data>
+  <data name="SelectOneItem" xml:space="preserve">
+    <value>حداقل یک گزینه را انتخاب نمایید</value>
+  </data>
+  <data name="ThisCodeIsAllready" xml:space="preserve">
+    <value>این کد قبلا ثبت شده است</value>
+  </data>
+  <data name="ThisEnNameIsAllready" xml:space="preserve">
+    <value>این نام لاتین قبلا ثبت شده است</value>
+  </data>
+  <data name="ThisFaNameIsAllready" xml:space="preserve">
+    <value>این نام قبلا ثبت شده است</value>
+  </data>
+  <data name="ThisViewNameIsAllready" xml:space="preserve">
+    <value>این نام نمایشی قبلا ثبت شده است</value>
+  </data>
+  <data name="TokenIsEmpty" xml:space="preserve">
+    <value>احزار هویت بدون مقدار است</value>
+  </data>
+  <data name="TokenNotFound" xml:space="preserve">
+    <value>سند احراز هویت یافت نشد</value>
+  </data>
+  <data name="UnKnowException" xml:space="preserve">
+    <value>خطایی ناشناخته رخ داده است</value>
+  </data>
+  <data name="UrlIsNotValid" xml:space="preserve">
+    <value>آدرس نامعتبر می باشد</value>
+  </data>
+  <data name="UserNameIsAllready" xml:space="preserve">
+    <value>نام کاربری وارد شده قبلا ثبت شده است از گزینه فراموشی رمز استفاده نمایید</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>کاربر مورد نظر یافت نشد</value>
+  </data>
+  <data name="UserNotVerify" xml:space="preserve">
+    <value>احراز هویت یافت نشد</value>
+  </data>
+  <data name="VersionNotFound" xml:space="preserve">
+    <value>ورژن نرم افزار صحیح نمی باشد</value>
+  </data>
+</root>

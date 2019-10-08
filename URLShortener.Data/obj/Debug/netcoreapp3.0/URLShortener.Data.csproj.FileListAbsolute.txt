@@ -1,0 +1,8 @@
+D:\CSharp\Shortener\URLShortener\URLShortener.Data\bin\Debug\netcoreapp3.0\URLShortener.Data.deps.json
+D:\CSharp\Shortener\URLShortener\URLShortener.Data\bin\Debug\netcoreapp3.0\URLShortener.Data.dll
+D:\CSharp\Shortener\URLShortener\URLShortener.Data\bin\Debug\netcoreapp3.0\URLShortener.Data.pdb
+D:\CSharp\Shortener\URLShortener\URLShortener.Data\obj\Debug\netcoreapp3.0\URLShortener.Data.csprojAssemblyReference.cache
+D:\CSharp\Shortener\URLShortener\URLShortener.Data\obj\Debug\netcoreapp3.0\URLShortener.Data.AssemblyInfoInputs.cache
+D:\CSharp\Shortener\URLShortener\URLShortener.Data\obj\Debug\netcoreapp3.0\URLShortener.Data.AssemblyInfo.cs
+D:\CSharp\Shortener\URLShortener\URLShortener.Data\obj\Debug\netcoreapp3.0\URLShortener.Data.dll
+D:\CSharp\Shortener\URLShortener\URLShortener.Data\obj\Debug\netcoreapp3.0\URLShortener.Data.pdb

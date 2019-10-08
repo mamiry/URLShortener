@@ -1,0 +1,8 @@
+D:\CSharp\Shortener\URLShortener\URLShortener.Domain\bin\Debug\netcoreapp2.2\URLShortener.Domain.deps.json
+D:\CSharp\Shortener\URLShortener\URLShortener.Domain\bin\Debug\netcoreapp2.2\URLShortener.Domain.dll
+D:\CSharp\Shortener\URLShortener\URLShortener.Domain\bin\Debug\netcoreapp2.2\URLShortener.Domain.pdb
+D:\CSharp\Shortener\URLShortener\URLShortener.Domain\obj\Debug\netcoreapp2.2\URLShortener.Domain.AssemblyInfoInputs.cache
+D:\CSharp\Shortener\URLShortener\URLShortener.Domain\obj\Debug\netcoreapp2.2\URLShortener.Domain.AssemblyInfo.cs
+D:\CSharp\Shortener\URLShortener\URLShortener.Domain\obj\Debug\netcoreapp2.2\URLShortener.Domain.dll
+D:\CSharp\Shortener\URLShortener\URLShortener.Domain\obj\Debug\netcoreapp2.2\URLShortener.Domain.pdb
+D:\CSharp\Shortener\URLShortener\URLShortener.Domain\obj\Debug\netcoreapp2.2\URLShortener.Domain.csprojAssemblyReference.cache

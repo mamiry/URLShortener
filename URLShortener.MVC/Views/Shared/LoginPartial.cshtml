@@ -1,0 +1,25 @@
+﻿<div class="row">
+    @if (User.Identity.IsAuthenticated)
+    {
+        <div class="col-3">
+            <a class="btn btn-primary" asp-action="Index" asp-controller="WebUrls">  <span> لیست لینک های شما</span> </a>
+        </div>
+        <div class="col-5"></div>
+        <div class="col-4">
+            <span id="UserName">سلام و درود :  @User.Identity.Name </span>
+            <a class="btn btn btn-danger" asp-action="LogOff" asp-controller="Account" asp-area="UserPanel"><span> خروج</span></a>
+        </div> 
+    }
+    else
+    {
+        <div class="col-3">
+        </div>
+        <div class="col-5"></div>
+        <div class="col-4">
+            <a class="btn btn-success" asp-action="Login" asp-controller="Account" asp-area="UserPanel"> <span> ورود </span> </a>
+            <a class="btn btn-primary" asp-action="Register" asp-controller="Account" asp-area="UserPanel">  <span>  ثبت نام </span> </a>
+        </div>
+    }
+</div>
+<hr/>
+<br/>

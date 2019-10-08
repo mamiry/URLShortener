@@ -1,0 +1,49 @@
+﻿
+
+@model URLShortener.Domain.ViewModels.WebUrl.WebUrlViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>ویرایش لینک</h1>
+
+<hr />
+@if (ViewBag.Message != null)
+{
+    <div>@ViewBag.Message</div>
+}
+<div class="row container">
+    <div class="col-4 text-left">
+        <label asp-for="Url" class="control-label"></label>
+    </div>
+    <div class="col-6">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <input asp-for="Url" class="form-control   direction-left" />
+                <span asp-validation-for="Url" class="text-danger"></span>
+
+                @if (ViewBag.Message != null)
+                {
+                    <div class="row text-danger container ">@ViewBag.Message</div>
+                }
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="ویرایش و ذخیره" class="btn btn-success btn-block" />
+            </div>
+        </form>
+    </div>
+    <div class="col-2"></div>
+</div>
+
+<div>
+    <a class="btn btn-dark" asp-action="Index">بازگشت</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

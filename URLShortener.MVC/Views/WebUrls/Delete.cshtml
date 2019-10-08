@@ -1,0 +1,46 @@
+﻿@model URLShortener.Domain.ViewModels.WebUrl.WebUrlViewModel
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<br />
+<hr />
+
+<form asp-action="Delete">
+    <span>آیا از حذف لینک زیر مطمئن هستید ؟</h3></span>
+    <input type="hidden" asp-for="Id" />
+    <input type="submit" value="بلی" class="btn btn-success" />   
+    <a class="btn btn-danger" asp-action="Index">انصراف</a>
+</form>
+<br />
+<div class="border border-primary ">
+    <table class="table text-center direction-left">
+        <thead class="text-left">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Url)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UrlShort )
+                </th>
+
+            </tr>
+        </thead>
+        <tbody class="text-left">
+
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => model.Url)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.UrlShort )
+                </td>
+
+            </tr>
+
+        </tbody>
+    </table>
+</div>
