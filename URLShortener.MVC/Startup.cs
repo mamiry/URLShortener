@@ -38,7 +38,7 @@ namespace URLShortener.MVC
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
 
-            ///معرفی و تعیین رشته اتصال
+            ///معرفی و تعیین رشته ی اتصال
             services.AddDbContext<MyContext>(options =>
             {
                 options.UseSqlServer("Data Source=.;Initial Catalog = URLShortenerDB;Integrated Security = true");
