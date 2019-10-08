@@ -111,7 +111,6 @@ namespace URLShortener.Data.Repositories
         {
             return _ctx.Users
                 .Where(u => u.UserName == userName && u.Password == Password)
-                //.Include(x => x.UserProfile)
                 .SingleOrDefault();
         }
 

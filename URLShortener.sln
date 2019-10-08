@@ -13,11 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "URLShortener.MVC", "URLShor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "URLShortener.UnitTest", "URLShortener.UnitTest\URLShortener.UnitTest.csproj", "{40A445B5-9239-417A-8C47-E8B0EB26F78C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{CC22B0B5-94FB-4392-B38A-AC713955209E}"
-	ProjectSection(SolutionItems) = preProject
-		URLShortener.MVC\Files\API Document.pdf = URLShortener.MVC\Files\API Document.pdf
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

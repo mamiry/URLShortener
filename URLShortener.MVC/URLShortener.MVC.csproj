@@ -25,6 +25,7 @@
     <Folder Include="Areas\UserPanel\Models\" />
     <Folder Include="Areas\UserPanel\Views\Account\" />
     <Folder Include="Areas\UserPanel\Views\Shared\" />
+    <Folder Include="Documents\" />
     <Folder Include="Views\WebUrls\" />
   </ItemGroup>
 
